@@ -8,6 +8,7 @@ public class HelloController {
 
     @GetMapping("/hello-world")
     public String sayHello() {
+        //Запуск страницы
         return "hello_world.html";
     }
 }
